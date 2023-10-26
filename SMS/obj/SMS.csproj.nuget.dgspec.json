@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Indie project\\Dotnet Projects\\ThesisProject\\SMS\\SMS.csproj": {}
+    "F:\\Dumb Projects\\Thesis\\ThesisProject\\SMS\\SMS.csproj": {}
   },
   "projects": {
-    "D:\\Indie project\\Dotnet Projects\\ThesisProject\\SMS\\SMS.csproj": {
+    "F:\\Dumb Projects\\Thesis\\ThesisProject\\SMS\\SMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Indie project\\Dotnet Projects\\ThesisProject\\SMS\\SMS.csproj",
+        "projectUniqueName": "F:\\Dumb Projects\\Thesis\\ThesisProject\\SMS\\SMS.csproj",
         "projectName": "SMS",
-        "projectPath": "D:\\Indie project\\Dotnet Projects\\ThesisProject\\SMS\\SMS.csproj",
+        "projectPath": "F:\\Dumb Projects\\Thesis\\ThesisProject\\SMS\\SMS.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Indie project\\Dotnet Projects\\ThesisProject\\SMS\\obj\\",
+        "outputPath": "F:\\Dumb Projects\\Thesis\\ThesisProject\\SMS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.3, )"
@@ -96,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using SMS.Data;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.AspNetCore.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SMSContext>(options =>
@@ -17,8 +18,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
-//------------------------------------------------------------------------------------------------------------------------//
-
+//------------------------------------------------------------------------------------------------------------------------/
 //------------------------------------------------------------------------------------------------------------------------//
 var app = builder.Build();
 

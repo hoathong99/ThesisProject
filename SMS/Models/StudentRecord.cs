@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SMS.Models
 {
-    public class Record
+    public class StudentRecord
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int RecordId { get; set; }

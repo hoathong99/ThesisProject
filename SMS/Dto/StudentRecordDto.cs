@@ -1,7 +1,7 @@
 ﻿
 namespace SMS.Dtos
 {
-    public class RecordDto
+    public class StudentRecordDto
     {
         public int RecordId { get; set; }
         public ClassSubjectDto ClassSubject { get; set; }
