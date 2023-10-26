@@ -1,8 +1,11 @@
-﻿namespace SMS.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace SMS.Models
 {
     public class ClassSubject
     {
-
+            [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
             public int ClassSubjectId { get; set; }
             public string ClassSubjectCode { get; set;}
             public string Type { get; set;}

@@ -7,7 +7,8 @@ namespace SMS.Models
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int RecordId { get; set; }
-        public string ClassSubjectId { get; set; }
+        public Subject subject { get; set; }
+        public string subjectId { get; set; }
         public string StudentId { get; set;}
         public double? Mark
         {

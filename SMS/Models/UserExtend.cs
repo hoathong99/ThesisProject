@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace SMS.Models
 {
     public class UserExtend : IdentityUser
     {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int UID { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }

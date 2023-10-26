@@ -7,6 +7,6 @@
         public int? PassCredit { get; set;}
         public int? TotalCredit { get; set; }
         public int? AcademicYear { get; set; }
-        public List<RecordDto>? RecordLst { get; set; }
+        public List<StudentRecordDto>? RecordLst { get; set; }
     }
 }

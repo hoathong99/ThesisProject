@@ -12358,11 +12358,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Dumb Projects\\Thesis\\ThesisProject\\SMS\\SMS.csproj",
+      "projectUniqueName": "D:\\Indie project\\Dotnet Projects\\ThesisProject\\SMS\\SMS.csproj",
       "projectName": "SMS",
-      "projectPath": "F:\\Dumb Projects\\Thesis\\ThesisProject\\SMS\\SMS.csproj",
+      "projectPath": "D:\\Indie project\\Dotnet Projects\\ThesisProject\\SMS\\SMS.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "F:\\Dumb Projects\\Thesis\\ThesisProject\\SMS\\obj\\",
+      "outputPath": "D:\\Indie project\\Dotnet Projects\\ThesisProject\\SMS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12451,7 +12451,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

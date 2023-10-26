@@ -15,9 +15,9 @@ namespace SMS.Services
             cfg.CreateMap<StudentRecord, StudentRecordDto>().ForMember(des => des.ClassSubject, opt => opt.Ignore())
 );
 
-        private MapperConfiguration configFromDto = new MapperConfiguration(cfg =>
-            cfg.CreateMap<StudentRecordDto, StudentRecord>().ForMember(des => des.ClassSubjectId, opt => opt.MapFrom(src => src.ClassSubject.ClassSubjectId))
-        );
+        //private MapperConfiguration configFromDto = new MapperConfiguration(cfg =>
+        //    cfg.CreateMap<StudentRecordDto, StudentRecord>().ForMember(des => des.ClassSubjectId, opt => opt.MapFrom(src => src.ClassSubject.ClassSubjectId))
+        //);
 
         public List<StudentRecordDto> FindStudentRecord(string UID)
         {
@@ -31,6 +31,17 @@ namespace SMS.Services
 
             var rs = new Mapper(configToDto).Map<List<StudentRecordDto>>(data);
             return rs;
+        }
+
+        public List<StudentRecordDto> FindStudentRecordWithSession(string UID, string Session)
+        {
+            if (_context.Subject == null)
+            {
+                return null;
+            }
+
+
+            return null;
         }
     }
 }
